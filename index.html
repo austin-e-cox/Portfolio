@@ -1,0 +1,104 @@
+<!--
+Colors (Pro Tip: Use the Eye Dropper Chrome extension to find the colors that are used on webpages.)
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+
+Fonts:
+For heading fonts use font-family: 'Georgia', Times, 'Times New Roman', serif;
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+Profile image in index.html:
+Use a picture of yourself.
+
+Portfolio images:
+Save the images to your images folder.
+
+Background images:
+The background pattern used was found on Subtle Patterns. You can browse through that site and use whichever pattern you like.
+
+Dimensions:
+
+The entire content and the main section content area is 960px wide.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Austin Cox Portfolio</title>
+    <!-- always go global to local for links. Local stylesheets must come after bootstrap so they overwrite it -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- wrapper for sticky footer -->
+    <div class="allContent">
+
+        <!-- Header background -->
+        <div class="bg-white">
+
+            <!-- Nav bar -->
+            <nav class="navbar navbar-expand-md row max960 autoMarginlr">
+
+                <!-- Name -->
+                <div class="navbar-brand column nameDiv"><strong>Austin Cox</strong></div>
+                
+                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto justify-content-end">
+                        <li class="nav-item active">
+                            <a class="nav-link disabled" href="#">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <div class="divider"></div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <div class="divider"></div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <div class="row">
+                <h1 class="headers pad-20-l">About Me</h1>
+            </div>
+            <hr id="sep">
+            <div class="row contentData">
+                <div class="col-md-3">
+                    <img src="assets/images/profile.jpg" class="contentImage">
+                </div>
+                <div class="col-md-9 contentText">
+                    <p>My name is Austin Cox. I am an avid programmer and work too late sometimes. I have lengthy experience in Python, some experience in C++, and Fortran coding languages. I am curently extending my knowledge to HTML, CSS, Javascript and others.</p>
+                    <p>I very much enjoy coding and sometimes get stuck on my current task and forget about other things, but it's okay because I am having fun and learning.</p>
+                    <p>Besides coding, I also enjoy playing Australian Rules Football, and am Vice-President of the <a href="http://www.seattlegrizzlies.com/">local USAFL club.</a></p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <footer class="footer">Copyright &copy;</footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
