@@ -171,24 +171,52 @@ a:active {
     overflow: hidden;
     max-height: 200px;
     max-width: 300px;
+    margin: auto;
 }
 
 .croppedImage{
-    height: auto;
-    width: 300px;
-    padding: 20px;
+    max-height: 100%;
+    max-width: 300px;
+    /*padding: 20px;*/
+    object-fit: cover;
+    margin: auto
 }
 
 .imageLabel{
     position: relative;
-    bottom: 100px;
-    background-color: #4aaaa5;
-    margin-left: 20px;
-    width: 260px;
+    bottom: 75px;
+    background-color: #4aaaa573;
+    /*margin-left: 20px;*/
+    width: 300px;
     text-align: center;
     padding: 10px 0px 10px 0px;
     color: #ffffff;
+    margin: auto;
 }
+
+.imgLinks{
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    color: black;
+}
+
+.imgLinks a:link {
+    color: darkgray;
+}
+  
+.imgLinks a:visited {
+    color: darkgreen;
+}
+
+.imgLinks a:hover {
+    color: hotpink;
+}
+
+.imgLinks a:active {
+    color: blue;
+}
+
 
 .pad-20{
     padding: 20px;
