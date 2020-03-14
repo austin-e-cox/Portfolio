@@ -9,7 +9,7 @@ This website has my contact information as well as a few basic projects that I h
 
 Repo: https://github.com/austin-e-cox/Portfolio_Bootstrap
 
-Active Page: https://austin-e-cox.github.io/Portfolio_Bootstrap/
+Active Page: https://austin-e-cox.github.io/Portfolio/
 
 ## Preview
 ![Page preview](/assets/images/portfolioPreview.png?raw=true "Page Preview")
