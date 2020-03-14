@@ -7,7 +7,7 @@ This website has my contact information as well as a few basic projects that I h
 
 ## Access
 
-Repo: https://github.com/austin-e-cox/Portfolio_Bootstrap
+Repo: https://github.com/austin-e-cox/Portfolio
 
 Active Page: https://austin-e-cox.github.io/Portfolio/
 
