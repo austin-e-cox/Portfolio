@@ -217,6 +217,13 @@ a:active {
     color: blue;
 }
 
+.dash-line{
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+
+
 
 .pad-20{
     padding: 20px;
@@ -224,4 +231,8 @@ a:active {
 
 .pad-20-l{
     padding-left: 20px;
+}
+
+.tac {
+    text-align: center;
 }
